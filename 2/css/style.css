@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+.companies ul {
+  display: flex;
+  align-items: center;
+}
+
+.features>.container {
+  display: flex;
+}
+.features .screen{
+  position: relative;
+}
+.features .screen .line_l{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.features .screen .line_d{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.column .feature {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 95px;
+}
+.testimonials {
+  text-align: center;
+}
+.testimonials ul{
+  display: flex;
+}

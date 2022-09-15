@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 217px;
+    background: #1f98f0;
+    z-index: 1;
+    display: flex;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.header .logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    position: absolute;
+    top: 33px;
+}
+
+/*MENU*/
+
+.header .menu {
+    position: absolute;
+    top: 45px;
+    cursor: pointer;
+    left: 425px;
+    display: flex;
+}
+
+.header .menu a:hover {
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header .menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Work+Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+
+}
+
+/*header .line {
+    display: inline-block;
+}*/
+
+.header .btn {
+    right: 230px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 20px 30px;
+    top: 25px;
+    color: #1F98F0;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.header .btn:hover {
+    border: 1px solid #fff;
+    background-color: #1F98F0;
+    color: #fff;
+}
+
+.header .btn a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Work+Sans', sans-serif;
+}
+
+.hero {
+    background-color: #1F98F0;
+    width: 100%;
+    height: 915px;
+}
+
+.container>.column {
+    width: 50%;
+}
+
+.hero .content {
+    margin-left: 217px;
+    margin-top: 200px;
+
+}
+
+.hero .content h2 {
+    font-family: 'Work+sans', sans-serif;
+    margin-top: 25px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.hero .content p {
+    margin-top: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero .content .gp {
+    margin-top: 52px;
+}
+
+.hero .content .as {
+    margin-top: 52px;
+}
+
+.hero .swiper {
+    position: relative;
+}
+
+.Rectangle4 {
+    position: absolute;
+    top: 80px;
+    right: 16px;
+}
+
+.Rectangle2 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
