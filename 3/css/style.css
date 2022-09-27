@@ -1,0 +1,76 @@
+.promo {
+  background-color: #1F98F0;
+  height: 265px;
+  padding-top: 107px;
+  padding-left: 30px;
+}
+
+.promo .container {
+  display: flex;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+}
+
+.promo button {
+  width: 223px;
+  height: 62px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  margin-left: 400px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F98F0;
+}
+
+.news {
+  padding-top: 121px;
+}
+
+.news h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+.news ul {
+  display: flex;
+  gap: 30px;
+}
+
+.news h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 22px;
+  letter-spacing: -0.3px;
+}
+
+.news p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6D7073;
+  margin-top: 15px;
+  letter-spacing: 0.7px;
+}
+
+.news a {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #1F98F0;
+  margin-top: 33px;
+}
+
