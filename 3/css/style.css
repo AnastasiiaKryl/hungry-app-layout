@@ -121,6 +121,9 @@ footer .column li a{
   text-decoration: none;
   color: #FFFFFF;
 }
+footer form{
+  display: flex;
+}
 footer .column li{
   margin-top: 14px;
 }
@@ -128,10 +131,13 @@ footer input{
   width: 229px;
   height: 41px;
   background-color: #FFFFFF;
+  border: none;
+  padding-left: 10px;
 }
 footer button{
   width: 129px;
   height: 41px;
   background: #1F98F0;
+  border: none;
   color: #FFFFFF;
 }
