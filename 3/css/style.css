@@ -32,6 +32,7 @@
 
 .news {
   padding-top: 121px;
+  height: 793px;
 }
 
 .news h2 {
@@ -73,4 +74,64 @@
   color: #1F98F0;
   margin-top: 33px;
 }
+footer{
+  height: 413px;
+  background-color: #03101A;
+  color: #FFFFFF;
+  padding-top: 100px;
+}
+footer .container{
+  display: flex;
+  gap: 64px;
+}
 
+
+footer .column:first-child{
+  width: 327px;
+}
+footer .column h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.95px;
+  line-height: 37px;
+}
+
+footer .column p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 34px;
+}
+footer .column nav{
+  margin-top: 35px;
+}
+footer .column h3 {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 23px;
+}
+
+footer .column li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .column li{
+  margin-top: 14px;
+}
+footer input{
+  width: 229px;
+  height: 41px;
+  background-color: #FFFFFF;
+}
+footer button{
+  width: 129px;
+  height: 41px;
+  background: #1F98F0;
+  color: #FFFFFF;
+}
