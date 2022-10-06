@@ -1,0 +1,168 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 217px;
+    background: #1f98f0;
+    z-index: 1;
+    display: flex;
+}
+
+:where(header, .hero) .container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.header a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 30.95px;
+    line-height: 37px;
+    margin-top: -9px;
+}
+
+/*MENU*/
+.header nav {
+    margin-top: 8px;
+    margin-left: 91px;
+}
+
+.header .menu ul {
+    display: flex;
+    gap: 50px
+}
+.header li{
+    position: relative;
+}
+.header li:not(:hover)::after{
+    opacity: 0;
+    transform: scaleX(0);
+}
+.header li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background:linear-gradient(to left,transparent,white,transparent);
+    transition: 400ms;
+}
+
+
+.header .menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.header .btn {
+    width: 184px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 22px 28px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-top: -14px;
+    border: 1px solid #fff;
+    transition: 400ms;
+}
+
+.header .btn:hover {
+    background-color: #1F98F0;
+}
+
+.header .btn a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 400ms;
+    letter-spacing: 0.3px;
+}
+.header .btn:hover a{
+    color: #fff;
+}
+.hero {
+    background-color: #1F98F0;
+    height: 820px;
+}
+
+.hero .container>.column {
+    width: 50%;
+}
+
+.hero .content {
+    padding-top: 182px;
+    ;
+
+}
+
+.hero .content h2 {
+    font-family: 'Work sans', sans-serif;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.hero .content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 19px;
+}
+
+.hero button {
+    margin-top: 47px;
+}
+
+.market-btn{
+    background-image: url(../img/market.png);
+    width: 205px;
+    height: 60px;
+    margin-left: 1px;
+}
+.store-btn{
+    background-image: url(../img/store.png);
+    width: 194px;
+    height: 60px;
+    margin-left: 7px;
+}
+.hero .swiper {
+    position: relative;
+    padding-top: 29px;
+    padding-left: 64px;
+    z-index: 1;
+}
+
+.phone-screen-back {
+    position: absolute;
+    top: 108px;
+    left: 267px;
+    z-index: -1;
+}
+
+.swiper::before{
+    background-image: url(../img/decore.png) ;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 780px;
+    width: 679px;
+    left: -60px;
+    top: 33px;
+}
+

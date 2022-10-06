@@ -1,0 +1,143 @@
+.promo {
+  background-color: #1F98F0;
+  height: 265px;
+  padding-top: 107px;
+  padding-left: 30px;
+}
+
+.promo .container {
+  display: flex;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+}
+
+.promo button {
+  width: 223px;
+  height: 62px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  margin-left: 400px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F98F0;
+}
+
+.news {
+  padding-top: 121px;
+  height: 793px;
+}
+
+.news h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+.news ul {
+  display: flex;
+  gap: 30px;
+}
+
+.news h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 22px;
+  letter-spacing: -0.3px;
+}
+
+.news p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6D7073;
+  margin-top: 15px;
+  letter-spacing: 0.7px;
+}
+
+.news a {
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #1F98F0;
+  margin-top: 33px;
+}
+footer{
+  height: 413px;
+  background-color: #03101A;
+  color: #FFFFFF;
+  padding-top: 100px;
+}
+footer .container{
+  display: flex;
+  gap: 64px;
+}
+
+
+footer .column:first-child{
+  width: 327px;
+}
+footer .column h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.95px;
+  line-height: 37px;
+}
+
+footer .column p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 34px;
+}
+footer .column nav{
+  margin-top: 35px;
+}
+footer .column h3 {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 23px;
+}
+
+footer .column li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer form{
+  display: flex;
+}
+footer .column li{
+  margin-top: 14px;
+}
+footer input{
+  width: 229px;
+  height: 41px;
+  background-color: #FFFFFF;
+  border: none;
+  padding-left: 10px;
+}
+footer button{
+  width: 129px;
+  height: 41px;
+  background: #1F98F0;
+  border: none;
+  color: #FFFFFF;
+}
